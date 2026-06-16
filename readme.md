@@ -11,3 +11,5 @@ simple_gp_pytorch is the standard Gaussian Process Regression using pytorch tool
 kriging_1d is the kriging for 1D data (using methodologies from geostatistics)
 
 cokriging_1d in cokriging folder is the cokriging with linear model of coregionalization for 1D data
+
+cokriging_1d.py is the python implementation of cokriging with linear model of coregionalization for 1D data
