@@ -75,7 +75,7 @@ public:
     // per-point variance correction
     ep = 1.0 + (kernel.self() - sum(V % V, 0).t()) / s2n; // N x 1
 
-    // scale V in place by 1/sqrt(ep)  (original does V = V / repmat(...))
+    // scale V in place by 1/sqrt(ep)
     V.each_row() /= sqrt(ep.t()); // now SCALED
 
     // second Cholesky on the scaled V
