@@ -14,7 +14,7 @@ Gaussian Process** (Snelson & Ghahramani, NIPS 2006).
 - **Dependencies:** Armadillo + LAPACK/BLAS
 - **Output:** three CSVs (`spgp_pred_before.csv`, `spgp_pred_after.csv`, `spgp_pseudo_inputs_ini.csv`, `spgp_pseudo_inputs.csv`)
 
-## Build
+# Build
 These programs can be built via CMake as:
 
 cmake -B build -DCMAKE_TOOLCHAIN_FILE=C:/Users/quangvu197/vcpkg/scripts/buildsystems/vcpkg.cmake
@@ -23,7 +23,7 @@ cmake --build build
 build\Debug\gp_demo.exe
 build\Debug\spgp_demo.exe
 
-## Visualization
+# Visualization
 Plot results with the shared `plot_results.py`. 
 ```
 python plot_results.py --gp        # plot GP
