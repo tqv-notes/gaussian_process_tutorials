@@ -13,3 +13,6 @@ kriging_1d is the kriging for 1D data (using methodologies from geostatistics)
 cokriging_1d in cokriging folder is the cokriging with linear model of coregionalization for 1D data
 
 cokriging_1d.py is the python implementation of cokriging with linear model of coregionalization for 1D data
+
+gp_cpp is the C++ implementation of Gaussian Process and Sparse Gaussian Processes using Pseudo-inputs
+
